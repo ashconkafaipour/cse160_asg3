@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Blocky World by Ashcon Kafaipour</title>
+    <style>
+    p.ex1 {
+      font-size: 40px;
+    }
+    p {text-align: center;}
+    </style>
+  </head>
+  
+  <body onload="main()">
+    <body style="background-color:rgba(146, 103, 39, 0.548);"></body>
+    <p class="ex1">BLOCKY WORLD -- MAZE</p>
+
+    <p>
+    <canvas id="webgl" width="600" height="600">
+    Please use a browser that supports "canvas"
+    </canvas>
+
+    <p id="fps">ms:0 | fps:0 </p>
+    <p>
+        ------------------------------------------------
+        <p>
+        <p>| W - FORWARD | <br> | A - LEFT | <br> | S - BACK | <br> | D - RIGHT <br> | Z - UP | <br> | X - DOWN | <br> 
+
+        <p>Drag the mouse to look left and right <p>
+        ------------------------------------------------
+    <br>
+    <button id="animationJoint1OnButton">Waddle On</button>
+    <button id="animationJoint1OffButton">Waddle Off</button>
+    <br> <br>
+    <button id="HatAnimationButton_On" type="button">Hat On</button>
+    <button id="HatAnimationButton_Off" type="button">Hat Off</button>
+
+  <br>
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+    <script src="lib/cuon-matrix-cse160.js"></script>
+    <script src="BlockyWorld.js"></script>
+    <script src="Point.js"></script>
+    <script src="Triangle.js"></script>
+    <script src="Circle.js"></script>
+    <script src="Cube.js"></script>
+    <script src="Pyramid.js"></script>
+    <script src="Camera.js"></script>
+
+
+  </body>
+</html>
